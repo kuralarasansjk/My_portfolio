@@ -328,7 +328,7 @@
                   start: "top 70%",
                   toggleActions: "play none none reverse",
                   animation: gsap.timeline()
-                    .to(title, { yPercent: 0, opacity: 1, duration: 1.5, ease: "expo.out", stagger: 0.12 })
+                    .to(title, { yPercent: 1, opacity: 1, duration: 1.5, ease: "expo.out", stagger: 0.12 })
                     .to(content, { y: 0, opacity: 1, duration: 1.2, ease: "power3.out", stagger: 0.1 }, "-=1.2")
                 });
               }
@@ -434,7 +434,7 @@
                       </h2>
                       <div className="content-fade-in mt-6 text-white/70">
                         <p className="min-h-[8em]">
-                          <Typewriter text={"I’m Kuralarasan — Data Analyst with growing skills in cloud and networking, using Python, SQL, and BI tools to turn data into clear, useful insights.\n\nI also work on basic AWS setups and reliable network configurations, and I’m constantly learning and improving to build practical, real-world solutions."} delay={30} />
+                          <Typewriter text={" I’m Kuralarasan — Data Analyst with growing skills in cloud and networking, using Python, SQL, and BI tools to turn data into clear, useful insights.\n\nI also work on basic AWS setups and reliable network configurations, and I’m constantly learning and improving to build practical, real-world solutions."} delay={30} />
                         </p>
                         <div className="mt-6 flex flex-wrap gap-4 text-sm">
                           <a className="inline-flex items-center gap-2 text-white/60 hover:text-white transition-colors" href="mailto:kuralarasansjk@gmail.com"><Icon.mail /> kuralarasansjk@gmail.com</a>
